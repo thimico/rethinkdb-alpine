@@ -1,4 +1,4 @@
-FROM muicoder/glibc:alpine
+FROM muicoder/glibc
 
 RUN apk add --no-cache rethinkdb rethinkdb-doc
 
